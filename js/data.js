@@ -1,8 +1,8 @@
-const productos = [
+const productlista = [
   {
     "nombre": "Chaleco de peso",
     "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "imagen": "../img/Chaleco de peso.jpg",
     "codigo": "jgq68mj258",
     "precio": 233703,
     "marca": "Puma",
@@ -10,8 +10,8 @@ const productos = [
   },
   {
     "nombre": "Cinta de correr",
-    "categoria": "Béisbol",
-    "imagen": "deporte.png",
+    "categoria": "Fitness",
+    "imagen": "../img/Cinta de correr.jpg",
     "codigo": "ufi51kt721",
     "precio": 444198,
     "marca": "Decathlon",
@@ -19,8 +19,8 @@ const productos = [
   },
   {
     "nombre": "Palo de golf",
-    "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "categoria": "Golf",
+    "imagen": "../img/Palo de golf.jpg",
     "codigo": "gtc20yt586",
     "precio": 154830,
     "marca": "Everlast",
@@ -28,8 +28,8 @@ const productos = [
   },
   {
     "nombre": "Pelota de béisbol",
-    "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "categoria": "Béisbol",
+    "imagen": "../img/Pelota de béisbol.jpg",
     "codigo": "tew37fg051",
     "precio": 21470,
     "marca": "Wilson",
@@ -38,7 +38,7 @@ const productos = [
   {
     "nombre": "Cuerda para saltar",
     "categoria": "Fútbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/Cuerda para saltar.jpg",
     "codigo": "hlu54rk399",
     "precio": 220735,
     "marca": "Asics",
@@ -47,16 +47,16 @@ const productos = [
   {
     "nombre": "Mancuernas",
     "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "imagen": "../img/Mancuernas.jpg",
     "codigo": "fgi36ih903",
     "precio": 313663,
     "marca": "Under Armour",
     "Color": "Blanco"
   },
   {
-    "nombre": "Palo de golf",
+    "nombre": "Conos",
     "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "imagen": "../img/cono.jpg",
     "codigo": "amw92fr470",
     "precio": 172821,
     "marca": "Everlast",
@@ -65,7 +65,7 @@ const productos = [
   {
     "nombre": "Gafas deportivas",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/Gafas deportivas.jpg",
     "codigo": "csy90ek304",
     "precio": 119148,
     "marca": "Asics",
@@ -74,7 +74,7 @@ const productos = [
   {
     "nombre": "Rodillera",
     "categoria": "Voleibol",
-    "imagen": "deporte.png",
+    "imagen": "../img/Rodillera.jpg",
     "codigo": "dwt18rl954",
     "precio": 482297,
     "marca": "Nike",
@@ -83,25 +83,17 @@ const productos = [
   {
     "nombre": "Pesas",
     "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "imagen": "../img/Pesas.jpg",
     "codigo": "cdb13ar957",
     "precio": 424910,
     "marca": "Decathlon",
     "Color": "Negro"
   },
+ 
   {
-    "nombre": "Rodillera",
-    "categoria": "Golf",
-    "imagen": "deporte.png",
-    "codigo": "jxh65uq629",
-    "precio": 424379,
-    "marca": "Spalding",
-    "Color": "Amarillo"
-  },
-  {
-    "nombre": "Pesas",
+    "nombre": "Saco de Boxeo",
     "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "imagen": "../img/saco de Boxeo.jpg",
     "codigo": "wce72ou291",
     "precio": 92525,
     "marca": "Puma",
@@ -110,7 +102,7 @@ const productos = [
   {
     "nombre": "Red de voleibol",
     "categoria": "Fútbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/Red de voleibol.jpg",
     "codigo": "kuj07kn132",
     "precio": 22735,
     "marca": "Spalding",
@@ -119,7 +111,7 @@ const productos = [
   {
     "nombre": "Pesas",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "quh29ma691",
     "precio": 127436,
     "marca": "Spalding",
@@ -128,7 +120,7 @@ const productos = [
   {
     "nombre": "Pelota de béisbol",
     "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "imagen": "../img/Pelota de béisbol.jpg",
     "codigo": "fji09gh530",
     "precio": 317957,
     "marca": "Nike",
@@ -137,16 +129,16 @@ const productos = [
   {
     "nombre": "Gorro deportivo",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/Gorro deportivo.jpg",
     "codigo": "xvb66ap037",
     "precio": 95804,
     "marca": "Asics",
     "Color": "Amarillo"
   },
   {
-    "nombre": "Pelota de béisbol",
+    "nombre": "Pelota de Baloncesto",
     "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "imagen": "../img/Pelota de baloncesto.jpg",
     "codigo": "fzm56ln687",
     "precio": 373834,
     "marca": "Wilson",
@@ -155,7 +147,7 @@ const productos = [
   {
     "nombre": "Rodillera",
     "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "imagen": "../img/Rodillera.jpg",
     "codigo": "oyi87dk521",
     "precio": 195944,
     "marca": "Spalding",
@@ -164,7 +156,7 @@ const productos = [
   {
     "nombre": "Red de voleibol",
     "categoria": "Béisbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "cxh83hn334",
     "precio": 493945,
     "marca": "Spalding",
@@ -173,7 +165,7 @@ const productos = [
   {
     "nombre": "Red de voleibol",
     "categoria": "Béisbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "yjr86sm506",
     "precio": 456138,
     "marca": "Spalding",
@@ -182,7 +174,7 @@ const productos = [
   {
     "nombre": "Cuerda para saltar",
     "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "oxt47pd960",
     "precio": 352850,
     "marca": "Wilson",
@@ -191,16 +183,25 @@ const productos = [
   {
     "nombre": "Gafas deportivas",
     "categoria": "Voleibol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "yul34og178",
     "precio": 42335,
     "marca": "Everlast",
     "Color": "Negro"
   },
+   {
+    "nombre": "Rodillera",
+    "categoria": "Golf",
+    "imagen": "../img/Rodillera.jpg",
+    "codigo": "jxh65uq629",
+    "precio": 424379,
+    "marca": "Spalding",
+    "Color": "Amarillo"
+  },
   {
     "nombre": "Bicicleta estática",
-    "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "categoria": "Fitness",
+    "imagen": "../img/Bicicleta estática.jpg",
     "codigo": "rcj29zy669",
     "precio": 386239,
     "marca": "Wilson",
@@ -208,8 +209,8 @@ const productos = [
   },
   {
     "nombre": "Gafas deportivas",
-    "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "categoria": "Fitness",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "hmv66bu496",
     "precio": 107582,
     "marca": "Reebok",
@@ -218,7 +219,7 @@ const productos = [
   {
     "nombre": "Casco de ciclismo",
     "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "nrz00kr333",
     "precio": 412767,
     "marca": "Adidas",
@@ -227,16 +228,16 @@ const productos = [
   {
     "nombre": "Pesas",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "smi59zo310",
     "precio": 389586,
     "marca": "Nike",
     "Color": "Amarillo"
   },
   {
-    "nombre": "Raqueta de tenis",
-    "categoria": "Ciclismo",
-    "imagen": "deporte.png",
+    "nombre": "Raqueta de tennis",
+    "categoria": "Raqueta",
+    "imagen": "../img/Raqueta de tenis.jpg",
     "codigo": "ngs52ie371",
     "precio": 343921,
     "marca": "Under Armour",
@@ -245,16 +246,16 @@ const productos = [
   {
     "nombre": "Pesas",
     "categoria": "Ciclismo",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "nfi84rh847",
     "precio": 169527,
     "marca": "Decathlon",
     "Color": "Amarillo"
   },
   {
-    "nombre": "Gafas deportivas",
-    "categoria": "Running",
-    "imagen": "deporte.png",
+    "nombre": "Pelota de Tennis",
+    "categoria": "Raqueta",
+    "imagen": "../img/pelota de Tenis.jpg",
     "codigo": "zob95ft380",
     "precio": 311816,
     "marca": "Spalding",
@@ -263,7 +264,7 @@ const productos = [
   {
     "nombre": "Cuerda para saltar",
     "categoria": "Béisbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "lvp61kc179",
     "precio": 218553,
     "marca": "Spalding",
@@ -272,7 +273,7 @@ const productos = [
   {
     "nombre": "Palo de golf",
     "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "ses92re803",
     "precio": 442774,
     "marca": "Adidas",
@@ -281,7 +282,7 @@ const productos = [
   {
     "nombre": "Cuerda para saltar",
     "categoria": "Béisbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "kga26vs571",
     "precio": 52029,
     "marca": "Adidas",
@@ -290,7 +291,7 @@ const productos = [
   {
     "nombre": "Red de voleibol",
     "categoria": "Voleibol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "vwp86en251",
     "precio": 297736,
     "marca": "Puma",
@@ -298,8 +299,8 @@ const productos = [
   },
   {
     "nombre": "Balón de fútbol",
-    "categoria": "Baloncesto",
-    "imagen": "deporte.png",
+    "categoria": "Futbol",
+    "imagen": "../img/Balón de fútbol.jpg",
     "codigo": "sxh59xp884",
     "precio": 467372,
     "marca": "Asics",
@@ -307,8 +308,8 @@ const productos = [
   },
   {
     "nombre": "Casco de ciclismo",
-    "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "categoria": "Ciclismo",
+    "imagen": "../img/Casco de ciclismo.jpg",
     "codigo": "oya53ms724",
     "precio": 335020,
     "marca": "Puma",
@@ -317,7 +318,7 @@ const productos = [
   {
     "nombre": "Cuerda para saltar",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "suw76og344",
     "precio": 323840,
     "marca": "Decathlon",
@@ -326,7 +327,7 @@ const productos = [
   {
     "nombre": "Rodillera",
     "categoria": "Running",
-    "imagen": "deporte.png",
+    "imagen": "../img/Rodillera.jpg",
     "codigo": "qud82pr814",
     "precio": 440540,
     "marca": "Puma",
@@ -335,7 +336,7 @@ const productos = [
   {
     "nombre": "Pelota de béisbol",
     "categoria": "Running",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "mps62br450",
     "precio": 148728,
     "marca": "Nike",
@@ -344,25 +345,25 @@ const productos = [
   {
     "nombre": "Mat de yoga",
     "categoria": "Ciclismo",
-    "imagen": "deporte.png",
+    "imagen": "../img/Mat de yoga.jpg",
     "codigo": "ywe25so510",
     "precio": 430631,
     "marca": "Reebok",
     "Color": "Gris"
   },
   {
-    "nombre": "Red de voleibol",
-    "categoria": "Running",
-    "imagen": "deporte.png",
+    "nombre": "Gafas de natacion",
+    "categoria": "acuatico",
+    "imagen": "../img/gafas natacion.jpg",
     "codigo": "toz54ad437",
     "precio": 58055,
     "marca": "Adidas",
     "Color": "Amarillo"
   },
   {
-    "nombre": "Mancuernas",
-    "categoria": "Boxeo",
-    "imagen": "deporte.png",
+    "nombre": "Gorro de Natacion",
+    "categoria": "acuatico",
+    "imagen": "../img/gorro natacion.jpg",
     "codigo": "ybi49cp948",
     "precio": 444802,
     "marca": "Under Armour",
@@ -371,7 +372,7 @@ const productos = [
   {
     "nombre": "Mat de yoga",
     "categoria": "Running",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "agc38ej126",
     "precio": 105808,
     "marca": "Spalding",
@@ -380,7 +381,7 @@ const productos = [
   {
     "nombre": "Balón de fútbol",
     "categoria": "Ciclismo",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "ahy46vn221",
     "precio": 217798,
     "marca": "Reebok",
@@ -389,7 +390,7 @@ const productos = [
   {
     "nombre": "Casco de ciclismo",
     "categoria": "Ciclismo",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "riu81ha821",
     "precio": 126935,
     "marca": "Reebok",
@@ -398,7 +399,7 @@ const productos = [
   {
     "nombre": "Palo de golf",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "wgw22nq631",
     "precio": 52684,
     "marca": "Under Armour",
@@ -407,7 +408,7 @@ const productos = [
   {
     "nombre": "Pelota de baloncesto",
     "categoria": "Fútbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "hzh64nd978",
     "precio": 390152,
     "marca": "Everlast",
@@ -416,7 +417,7 @@ const productos = [
   {
     "nombre": "Zapatillas deportivas",
     "categoria": "Fútbol",
-    "imagen": "deporte.png",
+    "imagen": "../img/Zapatillas deportivas.jpg",
     "codigo": "jjq13fn471",
     "precio": 482842,
     "marca": "Everlast",
@@ -425,7 +426,7 @@ const productos = [
   {
     "nombre": "Rodillera",
     "categoria": "Running",
-    "imagen": "deporte.png",
+    "imagen": "../img/Rodillera.jpg",
     "codigo": "ylx19vw956",
     "precio": 84747,
     "marca": "Wilson",
@@ -434,7 +435,7 @@ const productos = [
   {
     "nombre": "Gorro deportivo",
     "categoria": "Fitness",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "ktv84gp177",
     "precio": 72502,
     "marca": "Wilson",
@@ -443,12 +444,76 @@ const productos = [
   {
     "nombre": "Cinta de correr",
     "categoria": "Golf",
-    "imagen": "deporte.png",
+    "imagen": "../img/entrenamiento.jpg",
     "codigo": "bvy88mv550",
     "precio": 192229,
     "marca": "Adidas",
     "Color": "Gris"
   }
 ];
+localStorage.clear();
 
-export default productos;
+// Inicializar el localStorage si es la primera vez que se accede al sitio
+function initializeLocalStorage() {
+  if (!localStorage.getItem('productos')) {
+    localStorage.setItem('productos', JSON.stringify(productlista));
+  }
+}
+
+// Cargar productos desde localStorage
+function getProducts() {
+  return JSON.parse(localStorage.getItem('productos')) || [];
+}
+
+// Guardar productos en localStorage
+function saveProducts(productos) {
+  localStorage.setItem('productos', JSON.stringify(productos));
+}
+
+// Obtener las categorías únicas
+function getCategories() {
+  const productos = getProducts();
+  const categories = [...new Set(productos.map(producto => producto.categoria))];
+  return categories;
+}
+
+// Inicializar el localStorage al cargar el script
+initializeLocalStorage();
+
+
+
+
+
+
+
+/*
+// Inicializar el localStorage si es la primera vez que se accede al sitio
+function initializeLocalStorage() {
+  if (!localStorage.getItem('producto')) {
+    localStorage.setItem('producto', JSON.stringify(product));
+  }
+}
+
+// Cargar producto desde localStorage
+function getProduct() {
+  return JSON.parse(localStorage.getItem('producto')) || [];
+}
+// Inicializar el localStorage al cargar el script
+initializeLocalStorage();
+
+
+
+
+// Inicializar el localStorage si es la primera vez que se accede al sitio
+function initializeLocalStorage() {
+  if (!localStorage.getItem('producto')) {
+    localStorage.setItem('producto', JSON.stringify(producto_mango));
+  }
+}
+
+// Cargar producto desde localStorage
+function getProducts() {
+  return JSON.parse(localStorage.getItem('producto')) || [];
+}
+// Inicializar el localStorage al cargar el script
+initializeLocalStorage();*/
